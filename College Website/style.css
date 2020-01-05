@@ -1,0 +1,29 @@
+.heading {
+			text-align: center;
+			font-size: 5em;
+			color: green;
+			background-color: lightgreen;
+			border: 10px solid darkgreen;
+			margin-top: 0;
+			text-shadow: 3px 3px darkgreen;
+		}
+html {
+	/*background-color: rgba(0,0,0,1);*/
+	height: 100%;
+}
+body {
+	margin: 0;
+	height: 100%;
+	/*background-repeat: ;*/
+	background-size: cover;
+	/*background-color: rgba(0,0,0,0.5);*/
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/11/Ssn_central_garden.JPG);
+	background-position: center;
+	/*transition-timing-function: ease;*/
+}
+
+/*CSS Advanced Selector*/
+body * {
+	margin-left: 10%;
+	margin-right: 10%;
+}

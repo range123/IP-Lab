@@ -1,0 +1,8 @@
+1. Pseudo class selector to handle hover over anchor tag, advanced selector for all descendants of body tag 
+2. Animation used for the rotating heading and paragraph resizing
+3. Transformation used for rotating the heading
+4. Transition used when hovering over the nav bar at the top
+5. CSS fixed,sticky,absolute position properties are used
+6. Included a video that has audio
+7. Used Borders and backgrounds for all portions of the website
+8. Includes inline,external and internal style sheets

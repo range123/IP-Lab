@@ -1,0 +1,5 @@
+1. Added a map link for the word cloud image in index.html when clicking on scifi
+2. Used a list to display popular authors and a table for the scifi genre
+3. Form is used to display checkout section when a row in the table of the scifi section is clicked
+4. Used formatting tags, maps and all mandatory tags
+5. Did basic styling

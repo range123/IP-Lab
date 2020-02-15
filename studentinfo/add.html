@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Student</title>
+	<script type="text/javascript">
+		function fmat(dob)
+		{
+			var dt = dob.value
+			var arr = dt.split('-');
+			var res = arr[2]+'-'+arr[1]+'-'+arr[0];
+			dob.value = res;
+
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<h1>Add Student Record</h1>
+		<form action="/studentinfo/add" method = "POST">
+
+			ID : <input type="text" name="id"><br>
+			Name : <input type="text" name="name"><br>
+			RollNo : <input type="text" name="rollno"><br>
+			Branch : <input type="text" name="branch"><br>
+			Year : <input type="text" name="year"><br>
+			Sem : <input type="text" name="sem"><br>
+			DOB : <input type="date" name="dob"><br>
+			Address : <input type="text" name="address"><br><br>
+			<input type="submit" value="Add Record">
+		</form>
+	</center>
+
+</body>
+</html>
